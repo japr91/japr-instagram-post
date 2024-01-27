@@ -1,0 +1,38 @@
+.container-fluid {
+     margin-right: 0;
+     margin-left: auto;
+     padding: 0%;
+}
+.btn-success {
+     margin-right: 10px;
+}
+
+.fa-camera {
+     margin: 10px;
+}
+.nav {
+     margin-left: 50%;
+}
+.tab-content {
+     margin-top: 100px;
+}
+#nav2 {
+     margin-left: 100px;
+}
+
+.profile-picture {
+     background-image: url(https://picsum.photos/700/400?random);
+     width: 3rem;
+     height: 3rem;
+
+     background-size: cover;
+}
+#nav1 {
+     margin-left: 40rem;
+}
+#nav2 {
+     margin-left: 25rem;
+}
+.nav-pills {
+     margin-left: 31rem;
+}
