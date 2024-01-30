@@ -1,38 +1,82 @@
-.container-fluid {
-     margin-right: 0;
-     margin-left: auto;
-     padding: 0%;
-}
-.btn-success {
-     margin-right: 10px;
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: inherit;
 }
 
-.fa-camera {
-     margin: 10px;
-}
-.nav {
-     margin-left: 50%;
-}
-.tab-content {
-     margin-top: 100px;
-}
-#nav2 {
-     margin-left: 100px;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto-type', sans-serif;
+  box-sizing: border-box;
+  background-color: black;
 }
 
-.profile-picture {
-     background-image: url(https://picsum.photos/700/400?random);
-     width: 3rem;
-     height: 3rem;
+img {
+  vertical-align: top;
+  width: 100%;
+}
 
-     background-size: cover;
+.post {
+  width: 30rem;
+  padding-bottom: 2rem;
+  background-color: #ffff;
 }
-#nav1 {
-     margin-left: 40rem;
+
+.post-header {
+  display: flex;
+  /* padding: 0 1rem 0.5rem 0.5rem; */
+  padding: 1.25rem 1rem;
 }
-#nav2 {
-     margin-left: 25rem;
+
+.html {
+  font-size: 1.75rem;
+  margin-right: 0.5rem;
 }
-.nav-pills {
-     margin-left: 31rem;
+
+.user-details {
+  font-size: 1rem;
+  margin-right: auto;
+}
+
+.username {
+  font-size: 1rem;
+}
+
+.location {
+  font-size: 0.875rem;
+}
+
+.post-img {
+  margin-bottom: 1rem;
+}
+
+.tiger__img {
+  height: 17.5rem;
+}
+
+.post-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.post-likes {
+  font-size: 0.935rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.post-body {
+  font-size: 1rem;
+  padding: 0 1rem;
 }
